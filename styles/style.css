@@ -219,6 +219,14 @@ body{
     background-color:rgba(31, 31, 31, 0.7);
     border: 2px solid #e50914;
     border-radius: 15px;
+    overflow: hidden; 
+    display: flex; 
+}
+
+.card1 img{
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover; 
 }
 
 .card2{
@@ -227,6 +235,15 @@ body{
     background-color:rgba(31, 31, 31, 0.7);
     border: 2px solid #e50914;
     border-radius: 15px;
+    overflow: hidden; 
+    display: flex;
+}
+.card2 img{
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover;
+    transform: scale(1.12); 
+    transform-origin: center; 
 }
 .card3{
      width:20%;
@@ -234,11 +251,117 @@ body{
     background-color:rgba(31, 31, 31, 0.7);
     border: 2px solid #e50914;
     border-radius: 15px;
+    overflow: hidden; 
+    display: flex; 
 }
+
+.card3 img{
+    transform: scale(1.05);
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover; 
+}
+
 .card4{
     width:20%;
     height: 450px;
     background-color:rgba(31, 31, 31, 0.7);
     border: 2px solid #e50914;
     border-radius: 15px;
+    overflow: hidden; 
+    display: flex; 
+}
+
+.card4 img{
+    transform: scale(1.1);
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover; 
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    background-color:#1f1f1f;
+    display: flex;
+}
+.company{
+    margin-left:30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: #494949;
+}
+.contacts{
+    margin-right: 0;
+    margin-left: auto;
+    width: 400px;
+    height:auto;
+    display:flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+.contacts h3{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#494949;
+}
+.contacts h4{
+    padding:0;
+    margin-top:5px;
+
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: #494949;
+}
+
+.contacts a {
+    color: #494949;           
+    text-decoration: none;    
+    transition: color 0.3s;   
+}
+
+
+.contacts a:hover {
+    color:#e50914;          
+    text-decoration: underline; 
+}
+.email{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+.email h3{
+    margin-left: 300px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#494949;
+    
+}
+
+.email h4{
+    margin-left: 300px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#494949;
+}
+
+.email a {
+    color: #494949;           
+    text-decoration: none;    
+    transition: color 0.3s;   
+}
+
+
+.email a:hover {
+    color:#e50914;          
+    text-decoration: underline; 
 }
